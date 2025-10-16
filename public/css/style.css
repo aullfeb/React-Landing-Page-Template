@@ -1,6 +1,6 @@
 body,
 html {
-  font-family: "Open Sans", sans-serif;
+  font-family: "PT Serif", sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   color: #777;
@@ -11,7 +11,7 @@ html {
 h2,
 h3,
 h4 {
-  font-family: "Raleway", sans-serif;
+  font-family: "PT Serif", sans-serif;
 }
 h2 {
   text-transform: uppercase;
@@ -81,18 +81,18 @@ hr {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 #menu a.navbar-brand {
-  font-family: "Raleway", sans-serif;
+  font-family: "PT Serif", sans-serif;
   font-size: 24px;
   font-weight: 700;
   color: #333;
   text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
-  font-family: "Lato", sans-serif;
+  font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #555;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 500;
   padding: 8px 2px;
   border-radius: 0;
   margin: 9px 20px 0;
@@ -208,7 +208,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../img/projek1.jpg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -219,12 +219,12 @@ a:focus,
   background: rgba(0, 0, 0, 0.2);
 }
 .intro h1 {
-  font-family: "Raleway", sans-serif;
+  font-family: "PT Serif", sans-serif;
   color: #fff;
-  font-size: 82px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 400;
   text-transform: uppercase;
-  margin-top: 0;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 .intro h1 span {
@@ -232,15 +232,16 @@ a:focus,
   color: #5ca9fb;
 }
 .intro p {
+  font-family: "PT Serif", sans-serif;
   color: #fff;
-  font-size: 22px;
-  font-weight: 300;
-  line-height: 30px;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 50px;
   margin: 0 auto;
   margin-bottom: 60px;
 }
 header .intro-text {
-  padding-top: 350px;
+  padding-top: 250px;
   padding-bottom: 200px;
   text-align: center;
 }

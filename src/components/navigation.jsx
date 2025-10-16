@@ -18,7 +18,11 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            JBI
+            <img
+              src="img/logo.jpg"
+              alt="Logo Jaya Beton"
+              style={{ height: "45px", marginTop: "-10px" }}
+            />
           </a>{" "}
         </div>
 

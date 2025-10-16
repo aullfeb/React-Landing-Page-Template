@@ -1,20 +1,19 @@
 {
   "Header": {
-    "title": "We are a Landing Page"
+    "title": "Pioneer Concrete Supplier in Indonesia",
+    "paragraph": "Creating quality concrete for better building progress!"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Since its establishment on March 11, 1978, PT. Jaya Beton Indonesia has been a pioneer in the precast concrete industry in Indonesia. As part of the Pembangunan Jaya Group, we uphold the values of integrity, fairness, commitment, discipline, and motivation. These values form the foundation of all our work, while also strengthening good relationships with customers and business partners. For more than four decades, we have played a crucial role in supporting various projects throughout the country, ranging from office buildings, factories, power plants, distribution networks, water management systems, ports, airports, to vital public infrastructure such as roads, bridges, railway tracks, and canals.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "More than 45 years of experience",
+      "Quality Products",
+      "Professional & Competent Team"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Commitment and Innovation",
+      "One Stop Solution",
+      "Values and Beliefs"
     ]
   },
   "Gallery": [
