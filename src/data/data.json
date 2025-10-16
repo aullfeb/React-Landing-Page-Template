@@ -68,42 +68,43 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa-brands fa-wordpress",
+      "name": "Precast Concrete Manufacturing",
+      "text": "Quality precast concrete products."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa-solid fa-gears",
+      "name": "Engineering & Technical Support",
+      "text": "Professional technical solution"
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa-solid fa-screwdriver-wrench",
+      "name": "One stop solution",
+      "text": "Complete installation service."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa-solid fa-truck-pickup",
+      "name": "Reliable Delivery",
+      "text": "Procurement and timely delivery."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa-solid fa-lightbulb",
+      "name": "Innovation & Technology",
+      "text": "The application of modern technology and the latest methods to improve product quality."
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa-solid fa-shield-halved",
+      "name": "Quality Assurance & Sustainability",
+      "text": "Strict quality control standards and commitment to sustainable development."
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "address": "Jl. Jend. Gatot Subroto Gg. Daido No.KM. 8, RW.5, Kadu Jaya, Kec. Curug, Kabupaten Tangerang, Banten 15810",
+    "phone": "021-5902385",
+    "fax": "021-5902383",
+    "email": "info@jayabeton.com",
     "facebook": "fb.com",
-    "twitter": "twitter.com",
+    "whatsapp": "whatsapp.com",
     "youtube": "youtube.com"
   },
   "Features": [

@@ -15,16 +15,22 @@ export const Contact = (props) => {
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
   const clearState = () => setState({ ...initialState });
-  
-  
+
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(name, email, message);
-    
-    {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
-    
+
+    {
+      /* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */
+    }
+
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
+      .sendForm(
+        "YOUR_SERVICE_ID",
+        "YOUR_TEMPLATE_ID",
+        e.target,
+        "YOUR_PUBLIC_KEY"
+      )
       .then(
         (result) => {
           console.log(result.text);
@@ -44,8 +50,8 @@ export const Contact = (props) => {
               <div className="section-title">
                 <h2>Get In Touch</h2>
                 <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
+                  Fill out the form below to send us an email and we will get
+                  back to you as soon as possible.
                 </p>
               </div>
               <form name="sentMessage" validate onSubmit={handleSubmit}>
@@ -99,13 +105,25 @@ export const Contact = (props) => {
             </div>
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">
+            <h3>Contact Info</h3>
             <div className="contact-item">
-              <h3>Contact Info</h3>
               <p>
                 <span>
                   <i className="fa fa-map-marker"></i> Address
-                </span>
-                {props.data ? props.data.address : "loading"}
+                </span>{" "}
+                {props.data ? (
+                  <a
+                    href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+                      props.data.address
+                    )}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {props.data.address}
+                  </a>
+                ) : (
+                  "loading"
+                )}
               </p>
             </div>
             <div className="contact-item">
@@ -113,15 +131,35 @@ export const Contact = (props) => {
                 <span>
                   <i className="fa fa-phone"></i> Phone
                 </span>{" "}
-                {props.data ? props.data.phone : "loading"}
+                {props.data ? (
+                  <a href={`tel:${props.data.phone}`}>{props.data.phone}</a>
+                ) : (
+                  "loading"
+                )}
               </p>
             </div>
             <div className="contact-item">
               <p>
                 <span>
-                  <i className="fa fa-envelope-o"></i> Email
+                  <i className="fa-solid fa-fax"></i> Fax
                 </span>{" "}
-                {props.data ? props.data.email : "loading"}
+                {props.data ? (
+                  <a href={`tel:${props.data.fax}`}>{props.data.fax}</a>
+                ) : (
+                  "loading"
+                )}
+              </p>
+            </div>
+            <div className="contact-item">
+              <p>
+                <span>
+                  <i className="fa-solid fa-envelope"></i> Email
+                </span>{" "}
+                {props.data ? (
+                  <a href={`mailto:${props.data.email}`}>{props.data.email}</a>
+                ) : (
+                  "loading"
+                )}
               </p>
             </div>
           </div>
@@ -136,7 +174,7 @@ export const Contact = (props) => {
                   </li>
                   <li>
                     <a href={props.data ? props.data.twitter : "/"}>
-                      <i className="fa fa-twitter"></i>
+                      <i className="fa fa-whatsapp"></i>
                     </a>
                   </li>
                   <li>
@@ -153,10 +191,8 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2023 Issaaf Kattan React Land Page Template. Design by{" "}
-            <a href="http://www.templatewire.com" rel="nofollow">
-              TemplateWire
-            </a>
+            &copy; 2025 Auliyah Febriyanti Company Profile. Inspiried by Issaaf
+            Kattan.
           </p>
         </div>
       </div>
