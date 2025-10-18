@@ -106,6 +106,32 @@ export const Contact = (props) => {
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">
             <h3>Contact Info</h3>
+            <div className="row">
+              <div className="social">
+                <ul>
+                  <li>
+                    <a href={props.data ? props.data.facebook : "/"}>
+                      <i className="fa-brands fa-facebook"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href={props.data ? props.data.whatsapp : "/"}>
+                      <i className="fa-brands fa-whatsapp"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href={props.data ? props.data.twitter : "/"}>
+                      <i className="fa-brands fa-x-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href={props.data ? props.data.youtube : "/"}>
+                      <i className="fa-brands fa-youtube"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
             <div className="contact-item">
               <p>
                 <span>
@@ -163,37 +189,6 @@ export const Contact = (props) => {
               </p>
             </div>
           </div>
-          <div className="col-md-12">
-            <div className="row">
-              <div className="social">
-                <ul>
-                  <li>
-                    <a href={props.data ? props.data.facebook : "/"}>
-                      <i className="fa fa-facebook"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.twitter : "/"}>
-                      <i className="fa fa-whatsapp"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.youtube : "/"}>
-                      <i className="fa fa-youtube"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="footer">
-        <div className="container text-center">
-          <p>
-            &copy; 2025 Auliyah Febriyanti Company Profile. Inspiried by Issaaf
-            Kattan.
-          </p>
         </div>
       </div>
     </div>

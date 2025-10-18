@@ -105,7 +105,35 @@
     "email": "info@jayabeton.com",
     "facebook": "fb.com",
     "whatsapp": "whatsapp.com",
+    "twitter": "twitter.com",
     "youtube": "youtube.com"
+  },
+  "Footer": {
+    "logo": "img/logo.jpg",
+    "description": "Official account of PT Jaya Beton Indonesia. Indonesian leading precast concrete manufacturer",
+    "address": "Jl. Jend. Gatot Subroto KM. 8.5Kadujaya - Curug, Kab. Tangerang 15810",
+    "email": "info@jayabeton.com",
+    "phone": "021-5902383",
+    "fax": "021-5902385",
+    "factoryLocations": [
+      "Tangerang",
+      "Medan",
+      "Surabaya",
+      "Sadang"
+    ],
+    "businessHours": {
+      "weekday": "Monday - Friday : 8 am - 5 pm",
+      "saturday": "Saturday : 8 am - 2 am"
+    },
+    "downloadText": "Company Profile PT Jaya Beton Indonesia",
+    "downloadLink": "#",
+    "social": {
+      "facebook": "https://facebook.com",
+      "twitter": "https://twitter.com",
+      "youtube": "https://youtube.com",
+      "instagram": "https://instagram.com"
+    },
+    "copyright": "Copyright © 2025 - PT Jaya Beton Indonesia. All rights reserved."
   },
   "Features": [
     {
