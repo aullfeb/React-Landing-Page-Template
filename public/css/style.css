@@ -318,9 +318,6 @@ header .intro-text {
   color: #fff;
   text-align: center;
 }
-#services .service-item {
-  margin-bottom: 40px;
-}
 #services i {
   font-size: 40px;
   width: 120px;
@@ -328,7 +325,7 @@ header .intro-text {
   display: flex; /* biar icon center */
   align-items: center; /* vertical center */
   justify-content: center; /* horizontal center */
-  margin: 0 auto 20px; /* auto center */
+  margin: 10px auto 10px; /* dikecilkan jarak bawah dari 15px jadi 10px */
   border-radius: 50%;
   background: linear-gradient(145deg, #951624, #e20b35);
   color: #fff;
@@ -537,6 +534,7 @@ label {
   background: #fff;
   border-radius: 20%;
 }
+
 /* Footer Section*/
 .footer {
   background-color: #1a1a1a;
@@ -544,25 +542,21 @@ label {
   padding: 60px 0 0;
   font-family: Arial, sans-serif;
 }
-
 .footer-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
-
 .footer-top {
   display: grid;
   grid-template-columns: 1.2fr 1fr 1fr 1fr;
   gap: 50px;
   padding-bottom: 40px;
 }
-
 /* Logo Section */
 .footer-logo {
   padding-right: 20px;
 }
-
 .footer-logo-img {
   width: 180px;
   height: auto;
@@ -571,7 +565,6 @@ label {
   padding: 10px;
   border-radius: 4px;
 }
-
 .footer-logo h3 {
   margin: 15px 0 10px;
   font-size: 24px;
@@ -579,21 +572,18 @@ label {
   color: #fff;
   letter-spacing: 2px;
 }
-
 .footer-logo p {
   font-size: 13px;
   line-height: 1.6;
   color: #b8b8b8;
   margin-bottom: 20px;
 }
-
 /* Social Media Icons */
 .footer-social {
   display: flex;
   gap: 10px;
   margin-top: 20px;
 }
-
 .footer-social a {
   display: inline-flex;
   align-items: center;
@@ -607,18 +597,15 @@ label {
   transition: all 0.3s ease;
   text-decoration: none;
 }
-
 .footer-social a:hover {
   background-color: #951624;
   border-color: #951624;
   color: #fff;
   transform: translateY(-3px);
 }
-
 .footer-social i {
   font-size: 16px;
 }
-
 /* Footer Sections */
 .footer-section h4 {
   margin-bottom: 20px;
@@ -626,13 +613,11 @@ label {
   font-size: 18px;
   font-weight: 600;
 }
-
 .footer-section ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-
 .footer-section li {
   margin-bottom: 12px;
   display: flex;
@@ -640,7 +625,6 @@ label {
   font-size: 13px;
   line-height: 1.6;
 }
-
 .footer-section i {
   margin-right: 10px;
   width: 16px;
@@ -649,62 +633,51 @@ label {
   margin-top: 2px;
   flex-shrink: 0;
 }
-
 .footer-section span {
   color: #b8b8b8;
 }
-
 /* Business Hours Section */
 .business-hours {
   font-size: 13px;
 }
-
 .factory-title {
   color: #fff;
   margin-bottom: 10px;
   font-weight: 500;
 }
-
 .factory-list {
   margin-bottom: 15px;
 }
-
 .factory-list li {
   margin-bottom: 8px;
   padding-left: 5px;
 }
-
 .hours-title {
   color: #fff;
   margin: 15px 0 8px;
   font-weight: 500;
 }
-
 .hours-text {
   color: #b8b8b8;
   margin: 5px 0;
   line-height: 1.6;
 }
-
 /* Download Section */
 .download-section {
   text-align: left;
 }
-
 .download-icon {
   font-size: 32px;
   color: #951624;
   margin-bottom: 15px;
   display: block;
 }
-
 .download-section p {
   font-size: 13px;
   color: #b8b8b8;
   margin-bottom: 15px;
   line-height: 1.5;
 }
-
 .download-btn {
   background-color: #e63946;
   color: #fff;
@@ -720,28 +693,24 @@ label {
   gap: 8px;
   text-decoration: none;
 }
-
 .download-btn:hover {
   background-color: #d62828;
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(230, 57, 70, 0.3);
 }
-
 .download-btn i {
   margin: 0;
   color: #fff;
 }
-
 /* Footer Bottom */
 .footer-bottom {
   text-align: center;
-  padding: 20px 0;
+  padding: 10px 0;
   border-top: 1px solid #333;
-  margin-top: 0;
   background-color: #0f0f0f;
 }
-
 .footer-bottom p {
+  width: 100%;
   margin: 0;
   font-size: 13px;
   color: #888;
@@ -760,28 +729,28 @@ label {
     grid-template-columns: 1fr;
     gap: 30px;
   }
-  
+
   .footer-logo {
     text-align: center;
   }
-  
+
   .footer-logo-img {
     margin: 0 auto 15px;
     display: block;
   }
-  
+
   .footer-social {
     justify-content: center;
   }
-  
+
   .download-section {
     text-align: center;
   }
-  
+
   .download-icon {
     margin: 0 auto 15px;
   }
-  
+
   #about img {
     margin: 50px 0;
   }

@@ -103,23 +103,24 @@ export const Footer = (props) => {
             <div className="download-section">
               <i className="fa fa-file-pdf-o download-icon"></i>
               <p>{props.data ? props.data.downloadText : "Loading..."}</p>
-              <a href={props.data ? props.data.downloadLink : "#"}
+              <a
+                href={props.data ? props.data.downloadLink : "#"}
                 className="download-btn"
-                download>
+                download
+              >
                 <i className="fa fa-download"></i> Download
               </a>
             </div>
           </div>
         </div>
-
-        {/* Footer Bottom */}
-        <div className="footer-bottom">
-          <p>
-            {props.data
-              ? props.data.copyright
-              : "Copyright © 2022 - PT Jaya Beton Indonesia. All rights reserved."}
-          </p>
-        </div>
+      </div>
+      {/* Footer Bottom */}
+      <div className="footer-bottom">
+        <p>
+          {props.data
+            ? props.data.copyright
+            : "Copyright © 2022 - PT Jaya Beton Indonesia. All rights reserved."}
+        </p>
       </div>
     </footer>
   );
