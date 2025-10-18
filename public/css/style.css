@@ -248,8 +248,9 @@ header .intro-text {
 
 /* Features Section */
 #features {
-  background: #f6f6f6;
+  background: linear-gradient(to right, #951624 100%, #e20b35 0%);
   padding-top: 100px;
+  padding-bottom: 50px;
 }
 #features i.fa {
   font-size: 38px;
@@ -337,18 +338,18 @@ header .intro-text {
   transform: scale(1.1);
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
 }
-#services h2 {
+#services h2, #features h2 {
   color: #fff;
 }
 #services .section-title h2::after {
   background: rgba(255, 255, 255, 0.3);
 }
-#services h3 {
+#services h3, #features h3 {
   font-weight: 600;
   margin-bottom: 10px;
   color: #fff;
 }
-#services p {
+#services p, #features p {
   color: rgba(255, 255, 255, 0.85);
   font-size: 16px;
 }

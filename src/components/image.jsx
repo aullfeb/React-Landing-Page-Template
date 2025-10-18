@@ -43,17 +43,49 @@ export const Image = ({ title, largeImage, smallImage }) => {
   return (
     <>
       <div className="portfolio-item">
-        <div className="hover-bg">
-          {" "}
-          <a href={largeImage} title={title} onClick={openLightbox}>
+        <div 
+          className="hover-bg"
+          style={{
+            position: "relative",
+            width: "100%",
+            paddingBottom: "75%", // Aspect ratio 4:3 (bisa diubah sesuai kebutuhan)
+            overflow: "hidden",
+            backgroundColor: "#f0f0f0",
+          }}
+        >
+          <a 
+            href={largeImage} 
+            title={title} 
+            onClick={openLightbox}
+            style={{
+              position: "absolute",
+              top: 0,
+              left: 0,
+              width: "100%",
+              height: "100%",
+              display: "block",
+              textDecoration: "none",
+            }}
+          >
+            <img 
+              src={smallImage} 
+              alt={title}
+              style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "100%",
+                objectFit: "cover",
+                objectPosition: "center",
+              }}
+            />
             <div className="hover-text">
               <h4>{title}</h4>
             </div>
-            <img src={smallImage} className="img-responsive" alt={title} />{" "}
-          </a>{" "}
+          </a>
         </div>
       </div>
-
       {/* Lightbox Modal */}
       {isOpen && (
         <div
