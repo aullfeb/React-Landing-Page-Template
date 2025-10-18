@@ -249,6 +249,7 @@ header .intro-text {
 /* Features Section */
 #features {
   background: #f6f6f6;
+  padding-top: 100px;
 }
 #features i.fa {
   font-size: 38px;
@@ -349,7 +350,7 @@ header .intro-text {
 }
 #services p {
   color: rgba(255, 255, 255, 0.85);
-  font-size: 14px;
+  font-size: 16px;
 }
 
 /* Portfolio Section */
