@@ -115,12 +115,7 @@
     "email": "info@jayabeton.com",
     "phone": "021-5902383",
     "fax": "021-5902385",
-    "factoryLocations": [
-      "Tangerang",
-      "Medan",
-      "Surabaya",
-      "Sadang"
-    ],
+    "factoryLocations": ["Tangerang", "Medan", "Surabaya", "Sadang"],
     "businessHours": {
       "weekday": "Monday - Friday : 8 am - 5 pm",
       "saturday": "Saturday : 8 am - 2 am"
@@ -137,24 +132,32 @@
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa-solid fa-folder-open",
+      "title": "Lorem ipsum"
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa-solid fa-folder-open",
+      "title": "Lorem ipsum"
     },
     {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa-solid fa-folder-open",
+      "title": "Lorem ipsum"
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa-solid fa-folder-open",
+      "title": "Lorem ipsum"
+    },
+    {
+      "icon": "fa-solid fa-folder-open",
+      "title": "Lorem ipsum"
+    },
+    {
+      "icon": "fa-solid fa-folder-open",
+      "title": "Lorem ipsum"
+    },
+    {
+      "icon": "fa-solid fa-folder-open",
+      "title": "Lorem ipsum"
     }
   ]
 }

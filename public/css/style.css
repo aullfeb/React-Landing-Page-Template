@@ -252,17 +252,21 @@ header .intro-text {
   padding-top: 100px;
   padding-bottom: 50px;
 }
-#features i.fa {
-  font-size: 38px;
+#features i {
+  font-size: 100px;
   margin-bottom: 20px;
   transition: all 0.5s;
   color: #fff;
   width: 100px;
   height: 100px;
   padding: 30px 0;
-  border-radius: 50%;
+  border-radius: 100%;
   background: linear-gradient(145deg, #951624, #e20b35);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+}
+#features i:hover {
+  transform: scale(1.1);
+  box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.2);
 }
 
 /* About Section */
@@ -338,18 +342,21 @@ header .intro-text {
   transform: scale(1.1);
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
 }
-#services h2, #features h2 {
+#services h2,
+#features h2 {
   color: #fff;
 }
 #services .section-title h2::after {
   background: rgba(255, 255, 255, 0.3);
 }
-#services h3, #features h3 {
+#services h3,
+#features h3 {
   font-weight: 600;
   margin-bottom: 10px;
   color: #fff;
 }
-#services p, #features p {
+#services p,
+#features p {
   color: rgba(255, 255, 255, 0.85);
   font-size: 16px;
 }
