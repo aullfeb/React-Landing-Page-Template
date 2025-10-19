@@ -133,31 +133,45 @@
   "Features": [
     {
       "icon": "fa-solid fa-folder-open",
-      "title": "Lorem ipsum"
+      "title": "Buildings",
+      "folder": "Building",
+      "images": ["produk1.jpeg", "produk2.jpeg"]
     },
     {
       "icon": "fa-solid fa-folder-open",
-      "title": "Lorem ipsum"
+      "title": "Electricity",
+      "folder": "Electricity",
+      "images": ["produk1.jpeg"]
     },
     {
       "icon": "fa-solid fa-folder-open",
-      "title": "Lorem ipsum"
+      "title": "Foundations",
+      "folder": "Foundations",
+      "images": ["produk1.jpeg", "produk2.jpeg"]
     },
     {
       "icon": "fa-solid fa-folder-open",
-      "title": "Lorem ipsum"
+      "title": "Retaining Walls",
+      "folder": "Retaining Wall",
+      "images": ["produk1.jpeg", "produk2.jpg"]
     },
     {
       "icon": "fa-solid fa-folder-open",
-      "title": "Lorem ipsum"
+      "title": "Roads & Bridges",
+      "folder": "Roads & Bridges",
+      "images": ["produk1.jpeg", "produk2.jpg", "produk3.jpeg", "produk4.jpeg"]
     },
     {
       "icon": "fa-solid fa-folder-open",
-      "title": "Lorem ipsum"
+      "title": "Water Management",
+      "folder": "Water Management",
+      "images": ["produk1.jpeg", "produk2.jpg", "produk3.jpeg", "produk4.jpeg"]
     },
     {
       "icon": "fa-solid fa-folder-open",
-      "title": "Lorem ipsum"
+      "title": "Custom Product",
+      "folder": "Costum Produk",
+      "images": ["produk1.jpg"]
     }
   ]
 }
