@@ -102,13 +102,14 @@ export const Footer = (props) => {
             <h4>Download</h4>
             <div className="download-section">
               <i className="fa fa-file-pdf-o download-icon"></i>
-              <p>{props.data ? props.data.downloadText : "Loading..."}</p>
+              <p>{props.data ? props.data.downloadText : "Loading..."} </p>
               <a
                 href={props.data ? props.data.downloadLink : "#"}
                 className="download-btn"
-                download
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <i className="fa fa-download"></i> Download
+                <i className="fa fa-download"></i> Download{" "}
               </a>
             </div>
           </div>
