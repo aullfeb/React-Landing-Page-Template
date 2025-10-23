@@ -21,9 +21,17 @@ export const FeatureModal = ({ isOpen, onClose, category, images, folder }) => {
     setCurrentIndex(index);
   };
 
+  const currentImage = images[currentIndex];
+  const imageSrc =
+    typeof currentImage === "string" ? currentImage : currentImage.filename;
+  const imageTitle = typeof currentImage === "string" ? "" : currentImage.title;
+
   return (
     <div className="feature-modal-overlay" onClick={onClose}>
-      <div className="feature-modal-content" onClick={(e) => e.stopPropagation()}>
+      <div
+        className="feature-modal-content"
+        onClick={(e) => e.stopPropagation()}
+      >
         <button className="feature-modal-close" onClick={onClose}>
           <i className="fa fa-times"></i>
         </button>
@@ -42,10 +50,13 @@ export const FeatureModal = ({ isOpen, onClose, category, images, folder }) => {
 
           <div className="carousel-image-container">
             <img
-              src={`img/${folder}/${images[currentIndex]}`}
-              alt={`${category} - ${currentIndex + 1}`}
+              src={`img/${folder}/${imageSrc}`}
+              alt={imageTitle || `${category} - ${currentIndex + 1}`}
               className="carousel-image"
             />
+            {imageTitle && (
+              <div className="carousel-image-title">{imageTitle}</div>
+            )}
           </div>
 
           <button className="carousel-btn next" onClick={nextSlide}>

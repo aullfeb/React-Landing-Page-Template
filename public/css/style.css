@@ -330,11 +330,11 @@ header .intro-text {
   background: rgba(149, 22, 36, 0.8);
   border: none;
   color: white;
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 18px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -400,11 +400,11 @@ header .intro-text {
   background: rgba(149, 22, 36, 0.8);
   border: none;
   color: white;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 18px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -437,20 +437,40 @@ header .intro-text {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.6);
+  border: 2px solid rgba(255, 255, 255, 0.8);
   cursor: pointer;
   transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .carousel-dots .dot:hover {
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.9);
+  border-color: #fff;
   transform: scale(1.2);
 }
 
 .carousel-dots .dot.active {
   background: #951624;
+  border-color: #951624;
   width: 30px;
   border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(149, 22, 36, 0.5);
+}
+
+/* Image Title */
+.carousel-image-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+  color: white;
+  padding: 20px 15px 15px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
 }
 
 /* Responsive Design for Modal */
@@ -468,9 +488,15 @@ header .intro-text {
     font-size: 22px;
   }
 
+  .feature-modal-close {
+    width: 32px;
+    height: 32px;
+    font-size: 16px;
+  }
+
   .carousel-btn {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     font-size: 16px;
   }
 
@@ -480,6 +506,11 @@ header .intro-text {
 
   .carousel-btn.next {
     right: 5px;
+  }
+
+  .carousel-image-title {
+    font-size: 14px;
+    padding: 15px 10px 10px;
   }
 }
 

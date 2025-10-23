@@ -135,43 +135,114 @@
       "icon": "fa-solid fa-folder-open",
       "title": "Buildings",
       "folder": "Building",
-      "images": ["produk1.jpeg", "produk2.jpeg"]
+      "images": [
+        {
+          "filename": "produk1.jpeg",
+          "title": "Precast Concrete Wall Panel"
+        },
+        {
+          "filename": "produk2.jpeg",
+          "title": "Building Structural Elements"
+        }
+      ]
     },
     {
       "icon": "fa-solid fa-folder-open",
       "title": "Electricity",
       "folder": "Electricity",
-      "images": ["produk1.jpeg"]
+      "images": [
+        {
+          "filename": "produk1.jpeg",
+          "title": "Electric Pole Foundation"
+        }
+      ]
     },
     {
       "icon": "fa-solid fa-folder-open",
       "title": "Foundations",
       "folder": "Foundations",
-      "images": ["produk1.jpeg", "produk2.jpeg"]
+      "images": [
+        {
+          "filename": "produk1.jpeg",
+          "title": "Pile Foundation System"
+        },
+        {
+          "filename": "produk2.jpeg",
+          "title": "Concrete Foundation Block"
+        }
+      ]
     },
     {
       "icon": "fa-solid fa-folder-open",
       "title": "Retaining Walls",
       "folder": "Retaining Wall",
-      "images": ["produk1.jpeg", "produk2.jpg"]
+      "images": [
+        {
+          "filename": "produk1.jpeg",
+          "title": "L-Shape Retaining Wall"
+        },
+        {
+          "filename": "produk2.jpg",
+          "title": "Modular Retaining Wall System"
+        }
+      ]
     },
     {
       "icon": "fa-solid fa-folder-open",
       "title": "Roads & Bridges",
       "folder": "Roads & Bridges",
-      "images": ["produk1.jpeg", "produk2.jpg", "produk3.jpeg", "produk4.jpeg"]
+      "images": [
+        {
+          "filename": "produk1.jpeg",
+          "title": "Bridge Girder System"
+        },
+        {
+          "filename": "produk2.jpg",
+          "title": "Road Barrier Concrete"
+        },
+        {
+          "filename": "produk3.jpeg",
+          "title": "Precast Bridge Deck"
+        },
+        {
+          "filename": "produk4.jpeg",
+          "title": "Highway Divider Panel"
+        }
+      ]
     },
     {
       "icon": "fa-solid fa-folder-open",
       "title": "Water Management",
       "folder": "Water Management",
-      "images": ["produk1.jpeg", "produk2.jpg", "produk3.jpeg", "produk4.jpeg"]
+      "images": [
+        {
+          "filename": "produk1.jpeg",
+          "title": "Concrete Tetrapod"
+        },
+        {
+          "filename": "produk2.jpg",
+          "title": "Box Culvert System"
+        },
+        {
+          "filename": "produk3.jpeg",
+          "title": "U-Ditch Drainage Channel"
+        },
+        {
+          "filename": "produk4.jpeg",
+          "title": "Concrete Pipe System"
+        }
+      ]
     },
     {
       "icon": "fa-solid fa-folder-open",
       "title": "Custom Product",
       "folder": "Costum Produk",
-      "images": ["produk1.jpg"]
+      "images": [
+        {
+          "filename": "produk1.jpg",
+          "title": "Custom Precast Solution"
+        }
+      ]
     }
   ]
 }
