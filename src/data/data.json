@@ -21,7 +21,7 @@
   },
   "Gallery": [
     {
-      "title": "Pembangunan Tanggul Pulau Kelapa Gading",
+      "title": "Tanggul Pulau Kelapa Gading",
       "largeImage": "img/portfolio/projek1.jpg",
       "smallImage": "img/portfolio/projek1.jpg"
     },
@@ -180,10 +180,6 @@
         {
           "filename": "produk1.jpeg",
           "title": "L-Shape Retaining Wall"
-        },
-        {
-          "filename": "produk2.jpg",
-          "title": "Modular Retaining Wall System"
         }
       ]
     },

@@ -32,10 +32,6 @@ export const FeatureModal = ({ isOpen, onClose, category, images, folder }) => {
         className="feature-modal-content"
         onClick={(e) => e.stopPropagation()}
       >
-        <button className="feature-modal-close" onClick={onClose}>
-          <i className="fa fa-times"></i>
-        </button>
-
         <div className="feature-modal-header">
           <h2>{category}</h2>
           <p>

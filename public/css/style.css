@@ -260,13 +260,10 @@ header .intro-text {
   width: 100px;
   height: 100px;
   padding: 30px 0;
-  border-radius: 100%;
-  background: linear-gradient(145deg, #951624, #e20b35);
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 #features i:hover {
   transform: scale(1.1);
-  box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.2);
+  background: transparent;
 }
 #features .feature-item {
   cursor: pointer;
@@ -301,7 +298,7 @@ header .intro-text {
 }
 
 .feature-modal-content {
-  background: linear-gradient(145deg, #1a1a1a, #2d2d2d);
+  background: linear-gradient(145deg, #951624, #e20b35);
   border-radius: 15px;
   padding: 30px;
   max-width: 90%;
@@ -327,29 +324,28 @@ header .intro-text {
   position: absolute;
   top: 15px;
   right: 15px;
-  background: rgba(149, 22, 36, 0.8);
   border: none;
+  background: transparent;
   color: white;
   width: 35px;
   height: 35px;
-  border-radius: 50%;
   cursor: pointer;
   font-size: 18px;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
-  z-index: 10;
+  z-index: 2;
+  padding: 0;
 }
 
 .feature-modal-close:hover {
-  background: #951624;
-  transform: rotate(90deg);
+  transform: scale(1.15);
 }
 
 .feature-modal-header {
   text-align: center;
-  margin-bottom: 20px;
+
   color: white;
 }
 
@@ -383,38 +379,36 @@ header .intro-text {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  border-radius: 10px;
-  background: #000;
+  /* border-radius: 10px;
+  background: #000; */
 }
 
 .carousel-image {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 80%;
+  max-height: 80%;
   object-fit: contain;
   border-radius: 10px;
   animation: fadeIn 0.5s ease;
 }
-
 .carousel-btn {
   position: absolute;
-  background: rgba(149, 22, 36, 0.8);
   border: none;
+  background: transparent;
   color: white;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 28px;
   cursor: pointer;
-  font-size: 18px;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
   z-index: 2;
+  padding: 0;
 }
 
 .carousel-btn:hover {
-  background: #951624;
-  transform: scale(1.1);
+  transform: scale(1.15);
 }
 
 .carousel-btn.prev {
@@ -451,7 +445,7 @@ header .intro-text {
 }
 
 .carousel-dots .dot.active {
-  background: #951624;
+  background: #fff;
   border-color: #951624;
   width: 30px;
   border-radius: 6px;
@@ -462,15 +456,17 @@ header .intro-text {
 .carousel-image-title {
   position: absolute;
   bottom: 0;
-  left: 0;
-  right: 0;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent);
   color: white;
-  padding: 20px 15px 15px;
+  padding: 10px 15px 15px;
   text-align: center;
   font-size: 16px;
   font-weight: 600;
   letter-spacing: 0.5px;
+  border-radius: 8px;
 }
 
 /* Responsive Design for Modal */
@@ -487,17 +483,10 @@ header .intro-text {
   .feature-modal-header h2 {
     font-size: 22px;
   }
-
-  .feature-modal-close {
-    width: 32px;
-    height: 32px;
-    font-size: 16px;
-  }
-
   .carousel-btn {
-    width: 35px;
-    height: 35px;
-    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
   }
 
   .carousel-btn.prev {
@@ -510,7 +499,7 @@ header .intro-text {
 
   .carousel-image-title {
     font-size: 14px;
-    padding: 15px 10px 10px;
+    padding: 10px 10px 8px;
   }
 }
 
@@ -625,7 +614,7 @@ header .intro-text {
   margin: 0 auto;
   color: #fff;
   background: linear-gradient(
-    to right,
+    to top,
     rgb(190, 27, 27, 0.8) 0%,
     rgba(255, 255, 255, 0.8) 100%
   );
