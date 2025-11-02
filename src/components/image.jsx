@@ -97,7 +97,7 @@ export const Image = ({ title, largeImage, smallImage }) => {
             left: 0,
             right: 0,
             bottom: 0,
-            backgroundColor: "rgba(0, 0, 0, 0.95)",
+            backgroundColor: "rgba(0, 0, 0, 0.5)",
             backdropFilter: "blur(10px)",
             zIndex: 9999,
             display: "flex",
@@ -164,7 +164,7 @@ export const Image = ({ title, largeImage, smallImage }) => {
                 objectFit: "contain",
                 display: "block",
                 borderRadius: "8px",
-                boxShadow: "0 10px 40px rgba(0, 0, 0, 0.5)",
+                boxShadow: "0 10px 40px rgba(0, 0, 0, 0.1)",
               }}
             />
             {title && (
