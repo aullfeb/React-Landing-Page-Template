@@ -22,18 +22,20 @@ export const Contact = (props) => {
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_qs57fdd",
+        "template_7pndw66",
         e.target,
-        "YOUR_PUBLIC_KEY"
+        "L2ddcFZx1-eH3M_eR"
       )
       .then(
         (result) => {
           console.log(result.text);
+          alert("Pesan berhasil dikirim! Kami akan segera menghubungi Anda.");
           clearState();
         },
         (error) => {
           console.log(error.text);
+          alert("Gagal mengirim pesan. Silakan coba lagi nanti.");
         }
       );
   };
@@ -50,7 +52,7 @@ export const Contact = (props) => {
                   back to you as soon as possible.
                 </p>
               </div>
-              <form name="sentMessage" validate onSubmit={handleSubmit}>
+              <form name="sentMessage" onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
@@ -106,22 +108,38 @@ export const Contact = (props) => {
               <div className="social">
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.facebook : "/"}>
+                    <a
+                      href={props.data ? props.data.facebook : "/"}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <i className="fa-brands fa-facebook"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.whatsapp : "/"}>
+                    <a
+                      href={props.data ? props.data.whatsapp : "/"}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <i className="fa-brands fa-whatsapp"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.twitter : "/"}>
+                    <a
+                      href={props.data ? props.data.twitter : "/"}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <i className="fa-brands fa-x-twitter"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.youtube : "/"}>
+                    <a
+                      href={props.data ? props.data.youtube : "/"}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <i className="fa-brands fa-youtube"></i>
                     </a>
                   </li>
@@ -154,7 +172,13 @@ export const Contact = (props) => {
                   <i className="fa fa-phone"></i> Phone
                 </span>{" "}
                 {props.data ? (
-                  <a href={`tel:${props.data.phone}`}>{props.data.phone}</a>
+                  <a
+                    href={`tel:${props.data.phone}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {props.data.phone}
+                  </a>
                 ) : (
                   "loading"
                 )}
@@ -166,7 +190,13 @@ export const Contact = (props) => {
                   <i className="fa-solid fa-fax"></i> Fax
                 </span>{" "}
                 {props.data ? (
-                  <a href={`tel:${props.data.fax}`}>{props.data.fax}</a>
+                  <a
+                    href={`tel:${props.data.fax}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {props.data.fax}
+                  </a>
                 ) : (
                   "loading"
                 )}
@@ -178,7 +208,13 @@ export const Contact = (props) => {
                   <i className="fa-solid fa-envelope"></i> Email
                 </span>{" "}
                 {props.data ? (
-                  <a href={`mailto:${props.data.email}`}>{props.data.email}</a>
+                  <a
+                    href={`mailto:${props.data.email}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {props.data.email}
+                  </a>
                 ) : (
                   "loading"
                 )}

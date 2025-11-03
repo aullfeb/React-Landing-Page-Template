@@ -103,10 +103,10 @@
     "phone": "021-5902385",
     "fax": "021-5902383",
     "email": "info@jayabeton.com",
-    "facebook": "fb.com",
+    "facebook": "https://www.facebook.com/PT-JAYA-BETON-INDONESIA-915696595144742/",
     "whatsapp": "whatsapp.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "twitter": "https://x.com/ptjayabeton",
+    "youtube": "https://www.youtube.com/watch?v=XnhA5anFZWU"
   },
   "Footer": {
     "logo": "img/logo.jpg",
@@ -123,10 +123,10 @@
     "downloadText": "PDF Company Profile PT Jaya Beton Indonesia",
     "downloadLink": "img/company_profile_pt_jaya_beton_indonesia.pdf",
     "social": {
-      "facebook": "https://facebook.com",
-      "twitter": "https://twitter.com",
-      "youtube": "https://youtube.com",
-      "instagram": "https://instagram.com"
+      "facebook": "https://www.facebook.com/PT-JAYA-BETON-INDONESIA-915696595144742/",
+      "twitter": "https://x.com/ptjayabeton",
+      "youtube": "https://www.youtube.com/watch?v=XnhA5anFZWU",
+      "instagram": "https://www.instagram.com/ptjayabetonindonesia/"
     },
     "copyright": "Copyright © 2025 - PT Jaya Beton Indonesia. All rights reserved."
   },
