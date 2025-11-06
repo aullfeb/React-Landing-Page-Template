@@ -20,6 +20,7 @@ export const Features = (props) => {
       <div className="container">
         <div className="col-md-10 col-md-offset-1 section-title">
           <h2>Products</h2>
+          <p>Some product that we have worked on and many more.</p>
         </div>
         <div className="row">
           {props.data

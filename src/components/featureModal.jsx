@@ -39,6 +39,8 @@ export const FeatureModal = ({ isOpen, onClose, category, images, folder }) => {
           </p>
         </div>
 
+        {imageTitle && <div className="carousel-image-title">{imageTitle}</div>}
+
         <div className="feature-carousel">
           <button className="carousel-btn prev" onClick={prevSlide}>
             <i className="fa fa-chevron-left"></i>
@@ -50,24 +52,11 @@ export const FeatureModal = ({ isOpen, onClose, category, images, folder }) => {
               alt={imageTitle || `${category} - ${currentIndex + 1}`}
               className="carousel-image"
             />
-            {imageTitle && (
-              <div className="carousel-image-title">{imageTitle}</div>
-            )}
           </div>
 
           <button className="carousel-btn next" onClick={nextSlide}>
             <i className="fa fa-chevron-right"></i>
           </button>
-        </div>
-
-        <div className="carousel-dots">
-          {images.map((_, index) => (
-            <span
-              key={index}
-              className={`dot ${index === currentIndex ? "active" : ""}`}
-              onClick={() => goToSlide(index)}
-            ></span>
-          ))}
         </div>
       </div>
     </div>
