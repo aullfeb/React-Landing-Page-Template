@@ -6,7 +6,7 @@
 
   - [x] Added `homepage` field: `https://aullfeb.github.io/React-Company-Profile`
   - [x] Added `version` field: `1.0.0`
-  - [x] Added `predeploy` script: `npm run build`
+  - [x] Added `predeploy` script: `yarn run build`
   - [x] Added `deploy` script: `gh-pages -d build`
   - [x] Verified `gh-pages` package is installed in devDependencies
 

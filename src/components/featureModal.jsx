@@ -17,10 +17,6 @@ export const FeatureModal = ({ isOpen, onClose, category, images, folder }) => {
     );
   };
 
-  const goToSlide = (index) => {
-    setCurrentIndex(index);
-  };
-
   const currentImage = images[currentIndex];
   const imageSrc =
     typeof currentImage === "string" ? currentImage : currentImage.filename;
